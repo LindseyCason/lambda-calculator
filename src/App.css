@@ -1,0 +1,124 @@
+body{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.container{
+background-color: rgb(187, 8, 67);
+border: 2px solid  slategray;
+width: 400px;
+height: 650px;
+padding: 30px;
+border-radius: 20px;
+
+}
+.display{
+
+    background-color: rgb(44, 44, 44);
+    text-align: right;
+    color:white;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 100px;
+    padding:20px;
+}
+.numButton{
+background-color: rgb(30, 55, 109);
+color:white;
+border: none;
+box-shadow: -0px 3px #0000009f;
+
+font-size: 20px;
+border-radius: 100%;
+font-weight: bold;
+padding: 30px;
+margin: 10px;
+
+
+}
+.specButton{
+    
+
+    background-color: rgb(43, 81, 163);
+    color:white;
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    padding: 30px;
+    box-shadow: -0px 3px #0000009f;
+}
+
+.opButton{
+    background-color: rgb(47, 97, 155);
+    color:white;
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    padding: 30px;
+    margin: 5px;
+    box-shadow: -0px 3px #0000009f;
+
+
+    
+}
+.opButtonCSS{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding:5px;
+
+
+}
+div.mainNumsCSS{
+    display:flex;
+    flex-direction: row;
+}
+div.opButtonCSS > div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+div.specButtonsCSS > div:nth-child(1){
+    margin: 10px;
+    /* padding: 20px; */
+    /* border: 3px solid coral; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+div.specButtonsCSS {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+
+div > div.App > div.mainNumsCSS > div.specButtonsCSS > div:nth-child(2) > button:nth-child(10){
+    width: 55%;
+    border-radius: 100px;
+
+}
+div.specButtonsCSS > div:nth-child(2){
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+}
+/* div.specButtonsCSS > div:nth-child(1){
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+} */
+
